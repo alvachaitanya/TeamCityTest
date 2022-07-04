@@ -8,13 +8,13 @@ def switch(pipeline):
                                    engine_type="data_collector",
                                    engine_id="9946e354-616b-4969-8dcc-f02a4dafe983",
                                    pipeline_name=pipeline,
-                                   commit_message='MCR001')
+                                   commit_message='MCR002')
     elif pipeline == 'sdc_second_pipeline':
         sdc_second_pipeline.publish(sch,
                                     engine_type="data_collector",
                                     engine_id="9946e354-616b-4969-8dcc-f02a4dafe983",
                                     pipeline_name=pipeline,
-                                    commit_message='MCR001')
+                                    commit_message='MCR002')
 
 
 if __name__ == '__main__':
